@@ -1,0 +1,15 @@
+# Go build outputs
+*.exe
+*.test
+*.out
+/bin/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
